@@ -3,8 +3,8 @@
 ##########################################################################################################
 #Ffmpeg is missing
 OUTPUT=$(which ffplay)
-if [$OUTPUT=""] ; then
-   echo "Please install ffmpeg to continue." 
+if [$OUTPUT -eq ""] ; then
+   echo "Please install ffplay/ffmpeg to continue." 
    exit 1;
 fi
 
