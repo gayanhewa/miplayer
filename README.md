@@ -2,7 +2,7 @@
 
 Simple shell script that will use ffplay from the ffmpeg library to play all mp3 files in the current directory.
 
-Depends on Ffmpeg library. 
+Depends on ffplay ( Ffmpeg - http://www.ffmpeg.org/ffplay.html ). 
 
 ## Installation
 
