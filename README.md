@@ -10,7 +10,7 @@ Depends on Ffmpeg library.
 bash < <(wget -O - https://raw.github.com/gayanhewa/miplayer/master/miplayer-installer)
 ```
 
-## Useage 
+## Usage 
 
 ```
 $cd /your/music/folder
