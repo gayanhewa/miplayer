@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 # Inspired by the modman installer https://github.com/colinmollenhour/modman/blob/master/modman-installer#
 ##########################################################################################################
+#Ffmpeg is missing
+OUTPUT=$(which ffplay)
+if [$OUTPUT=""] ; then
+   echo "Please install ffmpeg to continue." 
+   exit 1;
+fi
 
 if [ ! -d "$HOME/bin" ] ; then
     mkdir $HOME/bin
