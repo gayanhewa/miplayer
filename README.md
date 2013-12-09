@@ -1,4 +1,4 @@
-##MiPLayer - Nofrills MP3 Player script for the console
+##MiPLayer - Nofrills MP3 Console Player
 
 Simple shell script that will use ffplay from the ffmpeg library to play all mp3 files in the current directory.
 
