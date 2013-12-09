@@ -1,5 +1,4 @@
-MiPLayer - Nofrills MP3 Player script for the console
-==========================================
+##MiPLayer - Nofrills MP3 Player script for the console
 
 Play all mp3 files in the current directory.
 
